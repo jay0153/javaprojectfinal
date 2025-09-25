@@ -26,11 +26,11 @@ This project serves as a comprehensive demonstration of Java SE capabilities, in
 
 ### **Steps to Run**
 
-1. **Clone the Repository:**  
-   git clone \
+ **Clone the Repository:**  
+   git clone \https://github.com/jay0153/javaprojectfinal.git
    cd CCRM
 
-2. Compile the Code:  
+ Compile the Code:  
    Navigate to the src directory and compile all Java files.  
    \# Navigate to the source directory  
    cd src
@@ -38,7 +38,7 @@ This project serves as a comprehensive demonstration of Java SE capabilities, in
    \# Compile all java files  
    javac \-d ../bin edu/ccrm/main/Main.java
 
-3. Run the Application:  
+ Run the Application:  
    From the bin directory, run the main class.  
    \# Navigate to the compiled output directory  
    cd ../bin
@@ -46,7 +46,7 @@ This project serves as a comprehensive demonstration of Java SE capabilities, in
    \# Run the application  
    java edu.ccrm.main.Main
 
-4. Enable Assertions:  
+ Enable Assertions:  
    To run the program with assertions enabled (as required for demonstrating the assert keyword), use the \-ea flag.  
    java \-ea edu.ccrm.main.Main
 
@@ -86,7 +86,7 @@ The project follows a standard package-by-feature structure to ensure modularity
 
 ## **4\. Core Java Concepts Explained**
 
-### **4.1. Evolution of Java (A Brief Timeline)**
+4.1. Evolution of Java (A Brief Timeline)**
 
 * **1995:** Java 1.0 is released by Sun Microsystems with the "Write Once, Run Anywhere" promise.  
 * **1998:** J2SE 1.2 is released, introducing the Swing GUI toolkit and Collections Framework.  
@@ -97,7 +97,7 @@ The project follows a standard package-by-feature structure to ensure modularity
 * **2018:** A new 6-month release cycle begins with Java SE 10 and 11 (LTS).  
 * **2021:** Java SE 17 (LTS) is released, bringing records, sealed classes, and pattern matching for instanceof.
 
-### **4.2. Java ME vs. Java SE vs. Java EE**
+4.2. Java ME vs. Java SE vs. Java EE**
 
 | Feature | Java ME (Micro Edition) | Java SE (Standard Edition) | Java EE (Enterprise Edition) |
 | :---- | :---- | :---- | :---- |
